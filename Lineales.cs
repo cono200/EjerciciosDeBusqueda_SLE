@@ -20,13 +20,18 @@ namespace EjerciciosDeBusqueda_SLE
                 if (numeros[i] != buscar)
                 {
                     Console.WriteLine("No existe el numero");
+                    break;
                 }
 
                 else if (numeros[i] == buscar)
                 {
-                    Console.WriteLine($"La posicion donde se encuentra el numero es {numeros[i]}");
+                    Console.WriteLine($"La posicion donde se encuentra el numero es {buscar}");
+                    break;
+                    //buscar = numeros[i];
                 }
             }
+
+            
         }
 
 

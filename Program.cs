@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Lineales
+            Lineales lineales1 = new Lineales();
+
+
+            lineales1.Ejercicio1();
 
 
 
